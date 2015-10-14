@@ -1,15 +1,3 @@
-#!/usr/bin/env ruby
-
-#
-# 바쿠스 랜덤조 프로그램
-# ========
-#
-# ### How to install
-# ```console
-# gem install sinatra erubis
-# ```
-#
-
 require 'sinatra'
 require 'tilt/erubis'
 

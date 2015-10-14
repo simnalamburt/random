@@ -7,7 +7,7 @@ get '/' do
   gen3 = %w( 윤미누나 은서 다윤 가온 ).shuffle
   @groups = []
   for i in 0...4
-    @groups[i] = [gen1[i], gen2[i], gen3[i]].shuffle
+    @groups[i] = [gen1[i], gen2[i], gen3[i]].shuffle.join(', ')
   end
 
   erb :index

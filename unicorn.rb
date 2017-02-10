@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 APP_PATH = File.expand_path File.dirname __FILE__
 def tmp(name); File.join APP_PATH, 'tmp', name end
 

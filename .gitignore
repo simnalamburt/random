@@ -1,2 +1,6 @@
+# Ignore dependencies
+/.bundle/lib/
+
+# Directory for temporal files
 /tmp/*
 !.keep

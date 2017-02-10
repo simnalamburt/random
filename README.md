@@ -1,12 +1,12 @@
 바쿠스 랜덤조 프로그램
 ========
-```console
-gem install sinatra erubis
-ruby app.rb
+```bash
+bundle
+bundle exec ruby app.rb
 ```
 
-#### Production
-```console
+### Production (WIP)
+```bash
 gem install unicorn
 ./run
 ```

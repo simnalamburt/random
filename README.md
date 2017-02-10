@@ -5,8 +5,8 @@ bundle
 bundle exec ruby app.rb
 ```
 
-### Production (WIP)
+### Production
 ```bash
-gem install unicorn
-./run
+bundle --with production
+bundle exec ./run
 ```
